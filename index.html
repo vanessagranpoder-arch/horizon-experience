@@ -4,88 +4,100 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Horizon Expérience | Portail officiel</title>
+<title>Transmission officielle</title>
 
-<link rel="stylesheet" href="style.css">
+<style>
+
+body{
+margin:0;
+background:#f5f0e8;
+font-family:Georgia,serif;
+text-align:center;
+color:#102b5c;
+}
+
+.container{
+max-width:900px;
+margin:auto;
+padding:40px 20px;
+}
+
+img{
+width:180px;
+margin-bottom:20px;
+}
+
+h1{
+font-size:46px;
+margin-bottom:10px;
+}
+
+h2{
+color:#b88b2b;
+margin-bottom:40px;
+}
+
+.video{
+width:100%;
+border-radius:20px;
+box-shadow:0 15px 40px rgba(0,0,0,.2);
+}
+
+p{
+font-size:22px;
+line-height:1.6;
+}
+
+.footer{
+margin-top:40px;
+font-style:italic;
+color:#9b7b34;
+}
+
+</style>
+
 </head>
 
 <body>
 
-<div id="loading">
+<div class="container">
 
-<h2>HORIZON EXPÉRIENCE</h2>
+<img src="logo.png">
 
-<p>Connexion sécurisée...</p>
+<h1>Transmission officielle n°1</h1>
 
-<div class="loader"></div>
-
-<p id="status">Recherche du dossier...</p>
-
-</div>
-
-<div id="portal" class="hidden">
-
-<header>
-
-<img src="logo.png" class="logo">
-
-<h1>PORTAIL OFFICIEL</h1>
-
-<p>Dossier HX-0910-A</p>
-
-</header>
-
-<section class="card">
-
-<h2>Bienvenue Anaïs</h2>
-
-<p>✔ Identité vérifiée</p>
-
-<p>✔ Participation confirmée</p>
-
-<p>✔ Niveau d'accès : Participante</p>
-
-<p>✔ Statut : Déclassifié</p>
-
-</section>
-
-<section class="message">
-
-<h3>Transmission officielle</h3>
+<h2>Dossier HX-0910-A</h2>
 
 <p>
 
-Votre dossier est désormais accessible.
+Bienvenue Anaïs.
 
-Les informations concernant votre destination
+<br><br>
 
-demeurent confidentielles jusqu'au début
+Votre participation a été confirmée.
 
-de votre aventure.
+<br><br>
+
+Veuillez prendre connaissance de votre première transmission.
 
 </p>
 
-<a class="button"
+<br>
 
-href="https://drive.google.com/file/d/1jBjMVMya33hNJEpDW8yGCDctP7GFTRvV/view"
+<video class="video" controls autoplay>
 
-target="_blank">
+<source src="VID-20260629-WA0000.mp4" type="video/mp4">
 
-ACCÉDER À LA TRANSMISSION N°1
+</video>
 
-</a>
-
-</section>
-
-<footer>
+<div class="footer">
 
 Les plus belles aventures commencent par une surprise.
 
-</footer>
+</div>
 
 </div>
 
-<script src="script.js"></script>
-
 </body>
+
 </html>
